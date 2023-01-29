@@ -16,6 +16,11 @@
   <style>
     body{
       overflow: hidden;
+      background: url({% static 'bg.jpg'%}) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
     #imageContainer{
       width: 80px;
@@ -29,12 +34,19 @@
       display: flex;
       align-items: center;
     }
+    .navbar-brand{
+      padding-left: 100px;
+    }
   </style>
 </head>
 
 <body>
-  <nav class="row" style="background: #6495ED; color: white;">
-    <div align="center" ><h1 class="col-md-3 text-center">SkySpectra</h1></div>
+  <nav class="navbar bg-light" style="height: 70px;">
+  <div class="container">
+    <a class="navbar-brand" href="#" >
+      <img src="{% static 'Logo.png' %}" alt="Logo" width="143" height="41">
+    </a>
+  </div>
   </nav>
   <br/>
   <br/>
