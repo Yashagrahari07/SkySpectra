@@ -2,7 +2,7 @@
 
 SkYSpectra is a weather app build using django and openweathermap API.
 Web App Link: http://yashagrahari07.pythonanywhere.com/
-![image](https://user-images.githubusercontent.com/92152225/215326154-98187b0b-3542-4183-ad83-03a1ced3a2ff.png)
+![image](https://user-images.githubusercontent.com/92152225/215326207-b2a494f3-8871-4817-a7bf-50c4d5a77f18.png)
 
 ## Installation
 we need to first create a virtual environment to run our django app.
