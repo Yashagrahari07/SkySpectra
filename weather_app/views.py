@@ -18,4 +18,14 @@ def index(request):
             "weather_icon": api_dict['weather'][0]['icon'],
         }
         print(weather_data)
-    return render(request,'index.html',{})
+    else:
+        city = None
+        weather_data = {
+            "country": None,
+            "weather_description": None,
+            "weather_temperature": None,
+            "weather_pressure": None,
+            "weather_humidity":None,
+            "weather_icon": None,
+        }
+    return render(request,'index.html',{"city": city, "data" :weather_data})
